@@ -1,6 +1,6 @@
 const sumAll = function (int1, int2) {
     sumOfAllFrom = 0;
-    if (isNaN(int1) || isNaN(int2) || Math.sign(int1) == -1 || Math.sign(int2) == -1 || !Number.isInteger(int1) || !Number.isInteger(int2)) {
+    if (Math.sign(int1) == -1 || Math.sign(int2) == -1 || !Number.isInteger(int1) || !Number.isInteger(int2)) {
         sumOfAllFrom = "ERROR"
     } else if (int1 < int2) {
         for (i = int1; i < int2 + 1; i++) {
