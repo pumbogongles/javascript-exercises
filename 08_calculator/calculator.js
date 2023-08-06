@@ -39,15 +39,6 @@ const power = function (a, b) {
 };
 
 const factorial = function (n) {
-  // let answer = 1;
-  // if (n == 0) {
-  //   return answer;
-  // } else {
-  //   for (i = n; i >= n; i--) {
-  //     answer *= n;
-  //   }
-  // }
-  // return answer;
   if (n == 0 || n == 1) {
     return 1;
   } else {
